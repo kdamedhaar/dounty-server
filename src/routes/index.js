@@ -1,7 +1,4 @@
-import sheetsRouter from './sheetsRouter';
-import unknownRouter from './unknownRouter';
+import mainRouter from "./mainRouter"
+import router404 from "./router404"
 
-export { 
-    sheetsRouter,
-    unknownRouter 
-};
+export { mainRouter, router404 }
